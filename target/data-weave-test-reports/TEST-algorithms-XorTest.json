@@ -1,0 +1,149 @@
+{
+  "name": "Xor",
+  "time": 504,
+  "status": "OK",
+  "tests": [
+    {
+      "name": "fixedXor",
+      "time": 443,
+      "status": "OK",
+      "tests": [
+        {
+          "name": "It applies a fixed Xor algorithm when given a hex string and equally long hex secret",
+          "time": 39,
+          "status": "OK",
+          "errorMessage": "",
+          "location": {
+            "start": {
+              "index": 238,
+              "line": 11,
+              "column": 9
+            },
+            "end": {
+              "index": 324,
+              "line": 11,
+              "column": 95
+            },
+            "locationString": "\n11|         \"It applies a fixed Xor algorithm when given a hex string and equally long hex secret\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "text": "\"It applies a fixed Xor algorithm when given a hex string and equally long hex secret\" in do {",
+            "sourceIdentifier": "algorithms::XorTest"
+          }
+        },
+        {
+          "name": "It applies a fixed Xor algorithm when given a hex string of 69 and a secret of F3",
+          "time": 9,
+          "status": "OK",
+          "errorMessage": "",
+          "location": {
+            "start": {
+              "index": 404,
+              "line": 14,
+              "column": 9
+            },
+            "end": {
+              "index": 487,
+              "line": 14,
+              "column": 92
+            },
+            "locationString": "\n14|         \"It applies a fixed Xor algorithm when given a hex string of 69 and a secret of F3\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "text": "\"It applies a fixed Xor algorithm when given a hex string of 69 and a secret of F3\" in do {",
+            "sourceIdentifier": "algorithms::XorTest"
+          }
+        },
+        {
+          "name": "It applies a fixed Xor algorithm when given a longer hex string and secret",
+          "time": 99,
+          "status": "OK",
+          "errorMessage": "",
+          "location": {
+            "start": {
+              "index": 568,
+              "line": 17,
+              "column": 9
+            },
+            "end": {
+              "index": 644,
+              "line": 17,
+              "column": 85
+            },
+            "locationString": "\n17|         \"It applies a fixed Xor algorithm when given a longer hex string and secret\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "text": "\"It applies a fixed Xor algorithm when given a longer hex string and secret\" in do {",
+            "sourceIdentifier": "algorithms::XorTest"
+          }
+        },
+        {
+          "name": "It applies a fixed Xor algorithm when given 123A and AAAA and returns B890",
+          "time": 22,
+          "status": "OK",
+          "errorMessage": "",
+          "location": {
+            "start": {
+              "index": 833,
+              "line": 20,
+              "column": 9
+            },
+            "end": {
+              "index": 909,
+              "line": 20,
+              "column": 85
+            },
+            "locationString": "\n20|         \"It applies a fixed Xor algorithm when given 123A and AAAA and returns B890\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "text": "\"It applies a fixed Xor algorithm when given 123A and AAAA and returns B890\" in do {",
+            "sourceIdentifier": "algorithms::XorTest"
+          }
+        },
+        {
+          "name": "It applies a fixed Xor to 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736 with a key of 7",
+          "time": 172,
+          "status": "FAIL",
+          "errorMessage": "Expecting `(root)` to be \"\" but was \"\\n&&\\\" '.i\\u0004\\nn:i% \\\",i(i9&<'-i&/i+(*&'\"",
+          "location": {
+            "start": {
+              "index": 1002,
+              "line": 23,
+              "column": 9
+            },
+            "end": {
+              "index": 1114,
+              "line": 23,
+              "column": 121
+            },
+            "locationString": "\n23|         \"It applies a fixed Xor to 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736 with a key of 7\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "text": "\"It applies a fixed Xor to 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736 with a key of 7\" in do {",
+            "sourceIdentifier": "algorithms::XorTest"
+          }
+        }
+      ],
+      "location": {
+        "start": {
+          "index": 205,
+          "line": 10,
+          "column": 5
+        },
+        "end": {
+          "index": 215,
+          "line": 10,
+          "column": 15
+        },
+        "locationString": "\n10|     \"fixedXor\" describedBy [\n        ^^^^^^^^^^",
+        "text": "\"fixedXor\" describedBy [",
+        "sourceIdentifier": "algorithms::XorTest"
+      }
+    }
+  ],
+  "location": {
+    "start": {
+      "index": 181,
+      "line": 9,
+      "column": 1
+    },
+    "end": {
+      "index": 186,
+      "line": 9,
+      "column": 6
+    },
+    "locationString": "\n9| \"Xor\" describedBy [\n   ^^^^^",
+    "text": "\"Xor\" describedBy [",
+    "sourceIdentifier": "algorithms::XorTest"
+  }
+}

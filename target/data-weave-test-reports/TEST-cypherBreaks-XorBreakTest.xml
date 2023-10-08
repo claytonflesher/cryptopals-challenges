@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites tests="10" time="2097" name="XorBreak" failures="2" errors="0">
+  <testsuite tests="10" time="2097" name="XorBreak" failures="2" skipped="0" errors="0">
+    <testsuite tests="10" time="2097" name="XorBreak" failures="2" skipped="0" errors="0">
+      <testcase name="It should score every hex character against a hex string" time="303" status="FAIL">
+        <failure>Expecting `(root)` to be Object size is 16 but was 95</failure>
+      </testcase>
+      <testcase name="It should score A to be highest when hello world is encoded with that hex character" time="509" status="OK"/>
+      <testcase name="It should score 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736" time="1081" status="FAIL">
+        <failure>Expecting `(root)` to be Object size is 16 but was 95</failure>
+      </testcase>
+    </testsuite>
+    <testsuite tests="10" time="2097" name="XorBreak" failures="2" skipped="0" errors="0">
+      <testcase name="It should decrypt a hex string when given a single character hex secret" time="5" status="OK"/>
+      <testcase name="It should convert hello as Hex string when given a single character hex secret" time="19" status="OK"/>
+      <testcase name="It gives us back hello when we fromHexToString the xorDecrypted String" time="11" status="OK"/>
+    </testsuite>
+    <testsuite tests="10" time="2097" name="XorBreak" failures="2" skipped="0" errors="0">
+      <testcase name="It should score a string with two 'e's as 4" time="1" status="OK"/>
+      <testcase name="It should score a string of hello as 7" time="1" status="OK"/>
+      <testcase name="It should score a string of xyz as 0" time="4" status="OK"/>
+    </testsuite>
+    <testsuite tests="10" time="2097" name="XorBreak" failures="2" skipped="0" errors="0">
+      <testcase name="It should score a hexString built from hello as 5" time="3" status="OK"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

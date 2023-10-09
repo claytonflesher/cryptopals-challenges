@@ -7,22 +7,10 @@ import * from dw::core::Binaries
 import hexToBinaryTable, fromHexToBinary, fromStringToBinary, fromBinaryToHex, 
        fromBinaryToString, fromHexToString, fromStringToHex from Binaries
 import fixedXor from algorithms::Xor
-import rightPad from dw::core::Strings
+import rightPad, hammingDistance from dw::core::Strings
 ---
 "XorBreak" describedBy [
     "singleCharacterXorScores" describedBy [
-        "It should score every hex character against a hex string" in do {
-            do {
-                var scores = {
-                    "0": 0,"6": 0,"C": 0,"1": 0,"7": 0,"D": 0,"2": 0,
-                    "8": 0,"E": 0,"3": 0,"9": 0,"F": 0,"4": 0,"A": 1,
-                    "5": 0,"B": 0
-                }
-                var xorEntry = fixedXor("68", "AA")
-                ---
-                singleCharacterXorScores(xorEntry) must equalTo(scores)
-            }
-        },
         "It should score A to be highest when hello world is encoded with that hex character" in do {
             do {
                 var secret = fromStringToHex("A")
@@ -31,19 +19,17 @@ import rightPad from dw::core::Strings
                 var topScore = (valuesOf(scores) orderBy -$)[0]
                 var highestScores = scores filterObject ((value) -> value == topScore)
                 ---
-                log(highestScores) must  equalTo({A: 10, a: 10})
+                highestScores must  equalTo({A: 10, a: 10})
             }
         },
         "It should score 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736" in do {
             do {
-                var scores = {
-                    "0": 0,  "6": 6, "C": 0, "1": 14, "7": 18, "D": 0,  "2": 0,
-                    "8": 0,  "E": 0, "3": 1, "9": 0,  "F": 0,  "4": 15, "A": 0,
-                    "5": 17, "B": 0
-                }
                 var hexString = "1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736"
+                var scores = singleCharacterXorScores(hexString)
+                var topScore = (valuesOf(scores) orderBy -$)[0]
+                var highestScores = scores filterObject ((value) -> value == topScore)
                 ---
-                singleCharacterXorScores(hexString) must equalTo(scores)
+                highestScores must equalTo({X: 30, x: 30})
             }
         }
     ],

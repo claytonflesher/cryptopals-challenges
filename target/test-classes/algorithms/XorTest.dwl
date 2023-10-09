@@ -22,9 +22,9 @@ import fromHexToString from Binaries
         },
         "It applies a fixed Xor to 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736 with a key of 7" in do {
             var hexString = "1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736"
-            var secret = rightPad("1", sizeOf(hexString), "1")
+            var secret = rightPad("58", sizeOf(hexString), "58")
             ---
-            fromHexToString(fixedXor(hexString, secret)) must equalTo("")
+            fromHexToString(fixedXor(hexString, secret)) must equalTo("Cooking MC's like a pound of bacon")
         }
     ],
 ]

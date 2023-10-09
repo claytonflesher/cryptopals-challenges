@@ -1,16 +1,16 @@
 {
   "name": "Xor",
-  "time": 504,
+  "time": 531,
   "status": "OK",
   "tests": [
     {
       "name": "fixedXor",
-      "time": 443,
+      "time": 466,
       "status": "OK",
       "tests": [
         {
           "name": "It applies a fixed Xor algorithm when given a hex string and equally long hex secret",
-          "time": 39,
+          "time": 56,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -31,7 +31,7 @@
         },
         {
           "name": "It applies a fixed Xor algorithm when given a hex string of 69 and a secret of F3",
-          "time": 9,
+          "time": 12,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -52,7 +52,7 @@
         },
         {
           "name": "It applies a fixed Xor algorithm when given a longer hex string and secret",
-          "time": 99,
+          "time": 102,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -73,7 +73,7 @@
         },
         {
           "name": "It applies a fixed Xor algorithm when given 123A and AAAA and returns B890",
-          "time": 22,
+          "time": 20,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -94,9 +94,9 @@
         },
         {
           "name": "It applies a fixed Xor to 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736 with a key of 7",
-          "time": 172,
-          "status": "FAIL",
-          "errorMessage": "Expecting `(root)` to be \"\" but was \"\\n&&\\\" '.i\\u0004\\nn:i% \\\",i(i9&<'-i&/i+(*&'\"",
+          "time": 173,
+          "status": "OK",
+          "errorMessage": "",
           "location": {
             "start": {
               "index": 1002,

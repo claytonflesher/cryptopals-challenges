@@ -1,72 +1,51 @@
 {
   "name": "XorBreak",
-  "time": 2097,
+  "time": 1488,
   "status": "OK",
   "tests": [
     {
       "name": "singleCharacterXorScores",
-      "time": 1963,
+      "time": 1350,
       "status": "OK",
       "tests": [
         {
-          "name": "It should score every hex character against a hex string",
-          "time": 303,
-          "status": "FAIL",
-          "errorMessage": "Expecting `(root)` to be Object size is 16 but was 95",
-          "location": {
-            "start": {
-              "index": 453,
-              "line": 14,
-              "column": 9
-            },
-            "end": {
-              "index": 511,
-              "line": 14,
-              "column": 67
-            },
-            "locationString": "\n14|         \"It should score every hex character against a hex string\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
-            "text": "\"It should score every hex character against a hex string\" in do {",
-            "sourceIdentifier": "cypherBreaks::XorBreakTest"
-          }
-        },
-        {
           "name": "It should score A to be highest when hello world is encoded with that hex character",
-          "time": 509,
+          "time": 723,
           "status": "OK",
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 937,
-              "line": 26,
+              "index": 470,
+              "line": 14,
               "column": 9
             },
             "end": {
-              "index": 1022,
-              "line": 26,
+              "index": 555,
+              "line": 14,
               "column": 94
             },
-            "locationString": "\n26|         \"It should score A to be highest when hello world is encoded with that hex character\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "locationString": "\n14|         \"It should score A to be highest when hello world is encoded with that hex character\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
             "text": "\"It should score A to be highest when hello world is encoded with that hex character\" in do {",
             "sourceIdentifier": "cypherBreaks::XorBreakTest"
           }
         },
         {
           "name": "It should score 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736",
-          "time": 1081,
-          "status": "FAIL",
-          "errorMessage": "Expecting `(root)` to be Object size is 16 but was 95",
+          "time": 583,
+          "status": "OK",
+          "errorMessage": "",
           "location": {
             "start": {
-              "index": 1533,
-              "line": 37,
+              "index": 1061,
+              "line": 25,
               "column": 9
             },
             "end": {
-              "index": 1619,
-              "line": 37,
+              "index": 1147,
+              "line": 25,
               "column": 95
             },
-            "locationString": "\n37|         \"It should score 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "locationString": "\n25|         \"It should score 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
             "text": "\"It should score 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736\" in do {",
             "sourceIdentifier": "cypherBreaks::XorBreakTest"
           }
@@ -74,12 +53,12 @@
       ],
       "location": {
         "start": {
-          "index": 404,
+          "index": 421,
           "line": 13,
           "column": 5
         },
         "end": {
-          "index": 430,
+          "index": 447,
           "line": 13,
           "column": 31
         },
@@ -90,68 +69,68 @@
     },
     {
       "name": "xorDecryptString",
-      "time": 50,
+      "time": 52,
       "status": "OK",
       "tests": [
         {
           "name": "It should decrypt a hex string when given a single character hex secret",
-          "time": 5,
+          "time": 6,
           "status": "OK",
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 2163,
-              "line": 51,
+              "index": 1648,
+              "line": 37,
               "column": 9
             },
             "end": {
-              "index": 2236,
-              "line": 51,
+              "index": 1721,
+              "line": 37,
               "column": 82
             },
-            "locationString": "\n51|         \"It should decrypt a hex string when given a single character hex secret\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "locationString": "\n37|         \"It should decrypt a hex string when given a single character hex secret\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
             "text": "\"It should decrypt a hex string when given a single character hex secret\" in do {",
             "sourceIdentifier": "cypherBreaks::XorBreakTest"
           }
         },
         {
           "name": "It should convert hello as Hex string when given a single character hex secret",
-          "time": 19,
+          "time": 21,
           "status": "OK",
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 2330,
-              "line": 54,
+              "index": 1815,
+              "line": 40,
               "column": 9
             },
             "end": {
-              "index": 2410,
-              "line": 54,
+              "index": 1895,
+              "line": 40,
               "column": 89
             },
-            "locationString": "\n54|         \"It should convert hello as Hex string when given a single character hex secret\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "locationString": "\n40|         \"It should convert hello as Hex string when given a single character hex secret\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
             "text": "\"It should convert hello as Hex string when given a single character hex secret\" in do {",
             "sourceIdentifier": "cypherBreaks::XorBreakTest"
           }
         },
         {
           "name": "It gives us back hello when we fromHexToString the xorDecrypted String",
-          "time": 11,
+          "time": 4,
           "status": "OK",
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 2685,
-              "line": 61,
+              "index": 2170,
+              "line": 47,
               "column": 9
             },
             "end": {
-              "index": 2757,
-              "line": 61,
+              "index": 2242,
+              "line": 47,
               "column": 81
             },
-            "locationString": "\n61|         \"It gives us back hello when we fromHexToString the xorDecrypted String\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "locationString": "\n47|         \"It gives us back hello when we fromHexToString the xorDecrypted String\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
             "text": "\"It gives us back hello when we fromHexToString the xorDecrypted String\" in do {",
             "sourceIdentifier": "cypherBreaks::XorBreakTest"
           }
@@ -159,23 +138,23 @@
       ],
       "location": {
         "start": {
-          "index": 2121,
-          "line": 50,
+          "index": 1606,
+          "line": 36,
           "column": 5
         },
         "end": {
-          "index": 2139,
-          "line": 50,
+          "index": 1624,
+          "line": 36,
           "column": 23
         },
-        "locationString": "\n50|     \"xorDecryptString\" describedBy  [\n        ^^^^^^^^^^^^^^^^^^",
+        "locationString": "\n36|     \"xorDecryptString\" describedBy  [\n        ^^^^^^^^^^^^^^^^^^",
         "text": "\"xorDecryptString\" describedBy  [",
         "sourceIdentifier": "cypherBreaks::XorBreakTest"
       }
     },
     {
       "name": "scoreString",
-      "time": 24,
+      "time": 16,
       "status": "OK",
       "tests": [
         {
@@ -185,16 +164,16 @@
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 3118,
-              "line": 71,
+              "index": 2603,
+              "line": 57,
               "column": 9
             },
             "end": {
-              "index": 3163,
-              "line": 71,
+              "index": 2648,
+              "line": 57,
               "column": 54
             },
-            "locationString": "\n71|         \"It should score a string with two 'e's as 4\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "locationString": "\n57|         \"It should score a string with two 'e's as 4\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
             "text": "\"It should score a string with two 'e's as 4\" in do {",
             "sourceIdentifier": "cypherBreaks::XorBreakTest"
           }
@@ -206,37 +185,37 @@
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 3237,
-              "line": 74,
+              "index": 2722,
+              "line": 60,
               "column": 9
             },
             "end": {
-              "index": 3277,
-              "line": 74,
+              "index": 2762,
+              "line": 60,
               "column": 49
             },
-            "locationString": "\n74|         \"It should score a string of hello as 7\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "locationString": "\n60|         \"It should score a string of hello as 7\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
             "text": "\"It should score a string of hello as 7\" in do {",
             "sourceIdentifier": "cypherBreaks::XorBreakTest"
           }
         },
         {
           "name": "It should score a string of xyz as 0",
-          "time": 4,
+          "time": 1,
           "status": "OK",
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 3354,
-              "line": 77,
+              "index": 2839,
+              "line": 63,
               "column": 9
             },
             "end": {
-              "index": 3392,
-              "line": 77,
+              "index": 2877,
+              "line": 63,
               "column": 47
             },
-            "locationString": "\n77|         \"It should score a string of xyz as 0\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "locationString": "\n63|         \"It should score a string of xyz as 0\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
             "text": "\"It should score a string of xyz as 0\" in do {",
             "sourceIdentifier": "cypherBreaks::XorBreakTest"
           }
@@ -244,42 +223,42 @@
       ],
       "location": {
         "start": {
-          "index": 3082,
-          "line": 70,
+          "index": 2567,
+          "line": 56,
           "column": 5
         },
         "end": {
-          "index": 3095,
-          "line": 70,
+          "index": 2580,
+          "line": 56,
           "column": 18
         },
-        "locationString": "\n70|     \"scoreString\" describedBy [\n        ^^^^^^^^^^^^^",
+        "locationString": "\n56|     \"scoreString\" describedBy [\n        ^^^^^^^^^^^^^",
         "text": "\"scoreString\" describedBy [",
         "sourceIdentifier": "cypherBreaks::XorBreakTest"
       }
     },
     {
       "name": "scoreHexString",
-      "time": 7,
+      "time": 24,
       "status": "OK",
       "tests": [
         {
           "name": "It should score a hexString built from hello as 5",
-          "time": 3,
+          "time": 15,
           "status": "OK",
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 3509,
-              "line": 82,
+              "index": 2994,
+              "line": 68,
               "column": 9
             },
             "end": {
-              "index": 3560,
-              "line": 82,
+              "index": 3045,
+              "line": 68,
               "column": 60
             },
-            "locationString": "\n82|         \"It should score a hexString built from hello as 5\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "locationString": "\n68|         \"It should score a hexString built from hello as 5\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
             "text": "\"It should score a hexString built from hello as 5\" in do {",
             "sourceIdentifier": "cypherBreaks::XorBreakTest"
           }
@@ -287,16 +266,16 @@
       ],
       "location": {
         "start": {
-          "index": 3469,
-          "line": 81,
+          "index": 2954,
+          "line": 67,
           "column": 5
         },
         "end": {
-          "index": 3485,
-          "line": 81,
+          "index": 2970,
+          "line": 67,
           "column": 21
         },
-        "locationString": "\n81|     \"scoreHexString\" describedBy  [\n        ^^^^^^^^^^^^^^^^",
+        "locationString": "\n67|     \"scoreHexString\" describedBy  [\n        ^^^^^^^^^^^^^^^^",
         "text": "\"scoreHexString\" describedBy  [",
         "sourceIdentifier": "cypherBreaks::XorBreakTest"
       }
@@ -304,12 +283,12 @@
   ],
   "location": {
     "start": {
-      "index": 375,
+      "index": 392,
       "line": 12,
       "column": 1
     },
     "end": {
-      "index": 385,
+      "index": 402,
       "line": 12,
       "column": 11
     },

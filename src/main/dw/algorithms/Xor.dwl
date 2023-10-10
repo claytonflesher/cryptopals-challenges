@@ -1,7 +1,6 @@
 %dw 2.4
 
 import * from Binaries
-import substringEvery from dw::core::Strings
 import rightPad, substring from dw::core::Strings
 
 fun fixedXor(hexString: String, secret: String): String =

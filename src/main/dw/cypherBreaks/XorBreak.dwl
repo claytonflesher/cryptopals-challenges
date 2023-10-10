@@ -1,9 +1,8 @@
 %dw 2.4
 
-import fromHexToBinary, hexToBinaryTable, fromHexToString from Binaries
+import fromHexToString, fromStringToHex from Binaries
 import fixedXor from algorithms::Xor
 import rightPad from dw::core::Strings
-import fromStringToHex from Binaries
 
 var asciiPrintableCharacters = ((1 to 255) as Array map $ as Binary as String) filter ($ matches /[ -~]/)
 var hexCharacters = asciiPrintableCharacters map ((character) -> fromStringToHex(character))

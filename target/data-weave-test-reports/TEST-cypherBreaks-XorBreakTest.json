@@ -1,16 +1,16 @@
 {
   "name": "XorBreak",
-  "time": 1488,
+  "time": 725,
   "status": "OK",
   "tests": [
     {
       "name": "singleCharacterXorScores",
-      "time": 1350,
+      "time": 595,
       "status": "OK",
       "tests": [
         {
           "name": "It should score A to be highest when hello world is encoded with that hex character",
-          "time": 723,
+          "time": 191,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -31,7 +31,7 @@
         },
         {
           "name": "It should score 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736",
-          "time": 583,
+          "time": 382,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -69,22 +69,22 @@
     },
     {
       "name": "xorDecryptString",
-      "time": 52,
+      "time": 37,
       "status": "OK",
       "tests": [
         {
           "name": "It should decrypt a hex string when given a single character hex secret",
-          "time": 6,
+          "time": 3,
           "status": "OK",
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 1648,
+              "index": 1649,
               "line": 37,
               "column": 9
             },
             "end": {
-              "index": 1721,
+              "index": 1722,
               "line": 37,
               "column": 82
             },
@@ -95,17 +95,17 @@
         },
         {
           "name": "It should convert hello as Hex string when given a single character hex secret",
-          "time": 21,
+          "time": 8,
           "status": "OK",
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 1815,
+              "index": 1816,
               "line": 40,
               "column": 9
             },
             "end": {
-              "index": 1895,
+              "index": 1896,
               "line": 40,
               "column": 89
             },
@@ -116,17 +116,17 @@
         },
         {
           "name": "It gives us back hello when we fromHexToString the xorDecrypted String",
-          "time": 4,
+          "time": 8,
           "status": "OK",
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 2170,
+              "index": 2171,
               "line": 47,
               "column": 9
             },
             "end": {
-              "index": 2242,
+              "index": 2243,
               "line": 47,
               "column": 81
             },
@@ -138,12 +138,12 @@
       ],
       "location": {
         "start": {
-          "index": 1606,
+          "index": 1607,
           "line": 36,
           "column": 5
         },
         "end": {
-          "index": 1624,
+          "index": 1625,
           "line": 36,
           "column": 23
         },
@@ -154,22 +154,22 @@
     },
     {
       "name": "scoreString",
-      "time": 16,
+      "time": 22,
       "status": "OK",
       "tests": [
         {
           "name": "It should score a string with two 'e's as 4",
-          "time": 1,
+          "time": 3,
           "status": "OK",
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 2603,
+              "index": 2604,
               "line": 57,
               "column": 9
             },
             "end": {
-              "index": 2648,
+              "index": 2649,
               "line": 57,
               "column": 54
             },
@@ -185,12 +185,12 @@
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 2722,
+              "index": 2723,
               "line": 60,
               "column": 9
             },
             "end": {
-              "index": 2762,
+              "index": 2763,
               "line": 60,
               "column": 49
             },
@@ -201,17 +201,17 @@
         },
         {
           "name": "It should score a string of xyz as 0",
-          "time": 1,
+          "time": 2,
           "status": "OK",
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 2839,
+              "index": 2840,
               "line": 63,
               "column": 9
             },
             "end": {
-              "index": 2877,
+              "index": 2878,
               "line": 63,
               "column": 47
             },
@@ -223,12 +223,12 @@
       ],
       "location": {
         "start": {
-          "index": 2567,
+          "index": 2568,
           "line": 56,
           "column": 5
         },
         "end": {
-          "index": 2580,
+          "index": 2581,
           "line": 56,
           "column": 18
         },
@@ -244,17 +244,17 @@
       "tests": [
         {
           "name": "It should score a hexString built from hello as 5",
-          "time": 15,
+          "time": 16,
           "status": "OK",
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 2994,
+              "index": 2995,
               "line": 68,
               "column": 9
             },
             "end": {
-              "index": 3045,
+              "index": 3046,
               "line": 68,
               "column": 60
             },
@@ -266,12 +266,12 @@
       ],
       "location": {
         "start": {
-          "index": 2954,
+          "index": 2955,
           "line": 67,
           "column": 5
         },
         "end": {
-          "index": 2970,
+          "index": 2971,
           "line": 67,
           "column": 21
         },

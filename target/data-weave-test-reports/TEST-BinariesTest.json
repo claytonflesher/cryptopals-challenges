@@ -1,16 +1,16 @@
 {
   "name": "Binaries",
-  "time": 217,
+  "time": 324,
   "status": "OK",
   "tests": [
     {
       "name": "fromHexToBase64",
-      "time": 31,
+      "time": 42,
       "status": "OK",
       "tests": [
         {
           "name": "It should convert a hex string to base64",
-          "time": 24,
+          "time": 29,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -48,12 +48,12 @@
     },
     {
       "name": "fromHexToBinary",
-      "time": 19,
+      "time": 25,
       "status": "OK",
       "tests": [
         {
           "name": "It should convert a hex string to Binary",
-          "time": 11,
+          "time": 16,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -91,12 +91,12 @@
     },
     {
       "name": "fromHexToString",
-      "time": 11,
+      "time": 15,
       "status": "OK",
       "tests": [
         {
           "name": "It should convert a hex string to a ASCII string",
-          "time": 5,
+          "time": 6,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -134,12 +134,12 @@
     },
     {
       "name": "fromStringToHex",
-      "time": 8,
+      "time": 23,
       "status": "OK",
       "tests": [
         {
           "name": "It should convert a string to a hex string",
-          "time": 5,
+          "time": 12,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -177,12 +177,12 @@
     },
     {
       "name": "fromBase64ToBinary",
-      "time": 11,
+      "time": 18,
       "status": "OK",
       "tests": [
         {
           "name": "It should convert a base64 string to Binary",
-          "time": 2,
+          "time": 6,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -220,12 +220,12 @@
     },
     {
       "name": "fromBinaryToHex",
-      "time": 15,
+      "time": 26,
       "status": "OK",
       "tests": [
         {
           "name": "It should convert a binary to hex",
-          "time": 1,
+          "time": 9,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -246,7 +246,7 @@
         },
         {
           "name": "It should convert binary from 'hello' string into hex",
-          "time": 3,
+          "time": 2,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -284,12 +284,12 @@
     },
     {
       "name": "divideBy2",
-      "time": 11,
+      "time": 15,
       "status": "OK",
       "tests": [
         {
           "name": "It should convert decimal numbers to binary numbers",
-          "time": 4,
+          "time": 7,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -327,12 +327,12 @@
     },
     {
       "name": "fromStringToBinary",
-      "time": 38,
+      "time": 39,
       "status": "OK",
       "tests": [
         {
           "name": "It should convert a string to binary numbers",
-          "time": 15,
+          "time": 17,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -353,7 +353,7 @@
         },
         {
           "name": "It should convert hello to binary numbers",
-          "time": 6,
+          "time": 10,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -391,12 +391,12 @@
     },
     {
       "name": "fromBinaryToString",
-      "time": 12,
+      "time": 10,
       "status": "OK",
       "tests": [
         {
           "name": "It should convert a binary array to a string",
-          "time": 6,
+          "time": 4,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -434,7 +434,7 @@
     },
     {
       "name": "findDecimalOfBinary",
-      "time": 4,
+      "time": 12,
       "status": "OK",
       "tests": [
         {
@@ -477,12 +477,12 @@
     },
     {
       "name": "fromBinaryToHex",
-      "time": 4,
+      "time": 10,
       "status": "OK",
       "tests": [
         {
           "name": "It should convert a binary array to a Hex string",
-          "time": 2,
+          "time": 4,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -520,12 +520,12 @@
     },
     {
       "name": "fromBinaryToBase64",
-      "time": 3,
+      "time": 11,
       "status": "OK",
       "tests": [
         {
           "name": "It should convert a binary array to a base64 string",
-          "time": 2,
+          "time": 4,
           "status": "OK",
           "errorMessage": "",
           "location": {

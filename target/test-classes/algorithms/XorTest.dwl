@@ -4,7 +4,7 @@ import * from dw::test::Asserts
 
 import * from algorithms::Xor
 import rightPad from dw::core::Strings
-import fromHexToString from Binaries
+import fromHexToString, fromStringToHex from Binaries
 ---
 "Xor" describedBy [
     "fixedXor" describedBy [
@@ -25,6 +25,13 @@ import fromHexToString from Binaries
             var secret = rightPad("58", sizeOf(hexString), "58")
             ---
             fromHexToString(fixedXor(hexString, secret)) must equalTo("Cooking MC's like a pound of bacon")
+        },
+        "It applies a fixed Xor to 7b5a4215415d544115415d5015455447414c155c46155f4058455c5b523f with a key of 5" in do {
+            var hexString = "7b5a4215415d544115415d5015455447414c155c46155f4058455c5b523f"
+            var key = fromStringToHex("5")
+            var secret = rightPad(key, sizeOf(hexString), key)
+            ---
+            fromHexToString(fixedXor(hexString, secret)) must equalTo("Now that the party is jumping\n")
         }
     ],
 ]

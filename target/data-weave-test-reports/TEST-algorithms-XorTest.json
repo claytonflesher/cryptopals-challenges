@@ -1,26 +1,26 @@
 {
   "name": "Xor",
-  "time": 531,
+  "time": 602,
   "status": "OK",
   "tests": [
     {
       "name": "fixedXor",
-      "time": 466,
+      "time": 547,
       "status": "OK",
       "tests": [
         {
           "name": "It applies a fixed Xor algorithm when given a hex string and equally long hex secret",
-          "time": 56,
+          "time": 41,
           "status": "OK",
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 238,
+              "index": 255,
               "line": 11,
               "column": 9
             },
             "end": {
-              "index": 324,
+              "index": 341,
               "line": 11,
               "column": 95
             },
@@ -31,17 +31,17 @@
         },
         {
           "name": "It applies a fixed Xor algorithm when given a hex string of 69 and a secret of F3",
-          "time": 12,
+          "time": 13,
           "status": "OK",
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 404,
+              "index": 421,
               "line": 14,
               "column": 9
             },
             "end": {
-              "index": 487,
+              "index": 504,
               "line": 14,
               "column": 92
             },
@@ -52,17 +52,17 @@
         },
         {
           "name": "It applies a fixed Xor algorithm when given a longer hex string and secret",
-          "time": 102,
+          "time": 94,
           "status": "OK",
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 568,
+              "index": 585,
               "line": 17,
               "column": 9
             },
             "end": {
-              "index": 644,
+              "index": 661,
               "line": 17,
               "column": 85
             },
@@ -78,12 +78,12 @@
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 833,
+              "index": 850,
               "line": 20,
               "column": 9
             },
             "end": {
-              "index": 909,
+              "index": 926,
               "line": 20,
               "column": 85
             },
@@ -94,17 +94,17 @@
         },
         {
           "name": "It applies a fixed Xor to 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736 with a key of 7",
-          "time": 173,
+          "time": 168,
           "status": "OK",
           "errorMessage": "",
           "location": {
             "start": {
-              "index": 1002,
+              "index": 1019,
               "line": 23,
               "column": 9
             },
             "end": {
-              "index": 1114,
+              "index": 1131,
               "line": 23,
               "column": 121
             },
@@ -112,16 +112,37 @@
             "text": "\"It applies a fixed Xor to 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736 with a key of 7\" in do {",
             "sourceIdentifier": "algorithms::XorTest"
           }
+        },
+        {
+          "name": "It applies a fixed Xor to 7b5a4215415d544115415d5015455447414c155c46155f4058455c5b523f with a key of 5",
+          "time": 94,
+          "status": "OK",
+          "errorMessage": "",
+          "location": {
+            "start": {
+              "index": 1447,
+              "line": 29,
+              "column": 9
+            },
+            "end": {
+              "index": 1551,
+              "line": 29,
+              "column": 113
+            },
+            "locationString": "\n29|         \"It applies a fixed Xor to 7b5a4215415d544115415d5015455447414c155c46155f4058455c5b523f with a key of 5\" in do {\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "text": "\"It applies a fixed Xor to 7b5a4215415d544115415d5015455447414c155c46155f4058455c5b523f with a key of 5\" in do {",
+            "sourceIdentifier": "algorithms::XorTest"
+          }
         }
       ],
       "location": {
         "start": {
-          "index": 205,
+          "index": 222,
           "line": 10,
           "column": 5
         },
         "end": {
-          "index": 215,
+          "index": 232,
           "line": 10,
           "column": 15
         },
@@ -133,12 +154,12 @@
   ],
   "location": {
     "start": {
-      "index": 181,
+      "index": 198,
       "line": 9,
       "column": 1
     },
     "end": {
-      "index": 186,
+      "index": 203,
       "line": 9,
       "column": 6
     },

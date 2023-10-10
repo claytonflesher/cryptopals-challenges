@@ -31,7 +31,7 @@ import rightPad, hammingDistance from dw::core::Strings
                 ---
                 highestScores must equalTo({X: 30, x: 30})
             }
-        }
+        },
     ],
     "xorDecryptString" describedBy  [
         "It should decrypt a hex string when given a single character hex secret" in do {

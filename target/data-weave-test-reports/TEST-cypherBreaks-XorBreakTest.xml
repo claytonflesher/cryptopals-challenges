@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuites tests="9" time="1488" name="XorBreak" failures="0" errors="0">
-  <testsuite tests="9" time="1488" name="XorBreak" failures="0" skipped="0" errors="0">
-    <testsuite tests="9" time="1488" name="XorBreak" failures="0" skipped="0" errors="0">
-      <testcase name="It should score A to be highest when hello world is encoded with that hex character" time="723" status="OK"/>
-      <testcase name="It should score 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736" time="583" status="OK"/>
+<testsuites tests="9" time="725" name="XorBreak" failures="0" errors="0">
+  <testsuite tests="9" time="725" name="XorBreak" failures="0" skipped="0" errors="0">
+    <testsuite tests="9" time="725" name="XorBreak" failures="0" skipped="0" errors="0">
+      <testcase name="It should score A to be highest when hello world is encoded with that hex character" time="191" status="OK"/>
+      <testcase name="It should score 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736" time="382" status="OK"/>
     </testsuite>
-    <testsuite tests="9" time="1488" name="XorBreak" failures="0" skipped="0" errors="0">
-      <testcase name="It should decrypt a hex string when given a single character hex secret" time="6" status="OK"/>
-      <testcase name="It should convert hello as Hex string when given a single character hex secret" time="21" status="OK"/>
-      <testcase name="It gives us back hello when we fromHexToString the xorDecrypted String" time="4" status="OK"/>
+    <testsuite tests="9" time="725" name="XorBreak" failures="0" skipped="0" errors="0">
+      <testcase name="It should decrypt a hex string when given a single character hex secret" time="3" status="OK"/>
+      <testcase name="It should convert hello as Hex string when given a single character hex secret" time="8" status="OK"/>
+      <testcase name="It gives us back hello when we fromHexToString the xorDecrypted String" time="8" status="OK"/>
     </testsuite>
-    <testsuite tests="9" time="1488" name="XorBreak" failures="0" skipped="0" errors="0">
-      <testcase name="It should score a string with two 'e's as 4" time="1" status="OK"/>
+    <testsuite tests="9" time="725" name="XorBreak" failures="0" skipped="0" errors="0">
+      <testcase name="It should score a string with two 'e's as 4" time="3" status="OK"/>
       <testcase name="It should score a string of hello as 7" time="1" status="OK"/>
-      <testcase name="It should score a string of xyz as 0" time="1" status="OK"/>
+      <testcase name="It should score a string of xyz as 0" time="2" status="OK"/>
     </testsuite>
-    <testsuite tests="9" time="1488" name="XorBreak" failures="0" skipped="0" errors="0">
-      <testcase name="It should score a hexString built from hello as 5" time="15" status="OK"/>
+    <testsuite tests="9" time="725" name="XorBreak" failures="0" skipped="0" errors="0">
+      <testcase name="It should score a hexString built from hello as 5" time="16" status="OK"/>
     </testsuite>
   </testsuite>
 </testsuites>

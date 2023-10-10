@@ -1,16 +1,16 @@
 {
   "name": "XorBreak",
-  "time": 725,
+  "time": 678,
   "status": "OK",
   "tests": [
     {
       "name": "singleCharacterXorScores",
-      "time": 595,
+      "time": 567,
       "status": "OK",
       "tests": [
         {
           "name": "It should score A to be highest when hello world is encoded with that hex character",
-          "time": 191,
+          "time": 151,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -31,7 +31,7 @@
         },
         {
           "name": "It should score 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736",
-          "time": 382,
+          "time": 393,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -69,12 +69,12 @@
     },
     {
       "name": "xorDecryptString",
-      "time": 37,
+      "time": 49,
       "status": "OK",
       "tests": [
         {
           "name": "It should decrypt a hex string when given a single character hex secret",
-          "time": 3,
+          "time": 4,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -95,7 +95,7 @@
         },
         {
           "name": "It should convert hello as Hex string when given a single character hex secret",
-          "time": 8,
+          "time": 15,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -116,7 +116,7 @@
         },
         {
           "name": "It gives us back hello when we fromHexToString the xorDecrypted String",
-          "time": 8,
+          "time": 7,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -154,12 +154,12 @@
     },
     {
       "name": "scoreString",
-      "time": 22,
+      "time": 18,
       "status": "OK",
       "tests": [
         {
           "name": "It should score a string with two 'e's as 4",
-          "time": 3,
+          "time": 2,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -201,7 +201,7 @@
         },
         {
           "name": "It should score a string of xyz as 0",
-          "time": 2,
+          "time": 1,
           "status": "OK",
           "errorMessage": "",
           "location": {
@@ -239,7 +239,7 @@
     },
     {
       "name": "scoreHexString",
-      "time": 24,
+      "time": 22,
       "status": "OK",
       "tests": [
         {

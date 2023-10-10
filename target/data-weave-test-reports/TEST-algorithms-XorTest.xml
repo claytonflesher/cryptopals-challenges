@@ -1,13 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuites tests="6" time="602" name="Xor" failures="0" errors="0">
-  <testsuite tests="6" time="602" name="Xor" failures="0" skipped="0" errors="0">
-    <testsuite tests="6" time="602" name="Xor" failures="0" skipped="0" errors="0">
-      <testcase name="It applies a fixed Xor algorithm when given a hex string and equally long hex secret" time="41" status="OK"/>
-      <testcase name="It applies a fixed Xor algorithm when given a hex string of 69 and a secret of F3" time="13" status="OK"/>
-      <testcase name="It applies a fixed Xor algorithm when given a longer hex string and secret" time="94" status="OK"/>
-      <testcase name="It applies a fixed Xor algorithm when given 123A and AAAA and returns B890" time="20" status="OK"/>
-      <testcase name="It applies a fixed Xor to 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736 with a key of 7" time="168" status="OK"/>
-      <testcase name="It applies a fixed Xor to 7b5a4215415d544115415d5015455447414c155c46155f4058455c5b523f with a key of 5" time="94" status="OK"/>
+<testsuites tests="9" time="819" name="Xor" failures="0" errors="0">
+  <testsuite tests="9" time="819" name="Xor" failures="0" skipped="0" errors="0">
+    <testsuite tests="9" time="819" name="Xor" failures="0" skipped="0" errors="0">
+      <testcase name="It applies a fixed Xor algorithm when given a hex string and equally long hex secret" time="36" status="OK"/>
+      <testcase name="It applies a fixed Xor algorithm when given a hex string of 69 and a secret of F3" time="9" status="OK"/>
+      <testcase name="It applies a fixed Xor algorithm when given a longer hex string and secret" time="76" status="OK"/>
+      <testcase name="It applies a fixed Xor algorithm when given 123A and AAAA and returns B890" time="18" status="OK"/>
+      <testcase name="It applies a fixed Xor to 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736 with a key of X" time="173" status="OK"/>
+      <testcase name="It applies a fixed Xor to 7b5a4215415d544115415d5015455447414c155c46155f4058455c5b523f with a key of 5" time="58" status="OK"/>
+    </testsuite>
+    <testsuite tests="9" time="819" name="Xor" failures="0" skipped="0" errors="0">
+      <testcase name="It applies a repeating-key Xor to 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736 with a key of X" time="55" status="OK"/>
+      <testcase name="It applies a repeating-key Xor to 7b5a4215415d544115415d5015455447414c155c46155f4058455c5b523f with a key of 5" time="29" status="OK"/>
+      <testcase name="It applies a repeating-key Xor to the sample file" time="177" status="OK"/>
     </testsuite>
   </testsuite>
 </testsuites>

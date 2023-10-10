@@ -1,16 +1,16 @@
 {
   "name": "DetectSingleCharacterXOR",
-  "time": 3279,
+  "time": 5710,
   "status": "OK",
   "tests": [
     {
       "name": "findSingleCharacterXor",
-      "time": 3263,
+      "time": 5701,
       "status": "OK",
       "tests": [
         {
           "name": "It returns the Object we think is xor'd with a single character",
-          "time": 3228,
+          "time": 5679,
           "status": "OK",
           "errorMessage": "",
           "location": {

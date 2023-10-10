@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuites tests="1" time="3279" name="DetectSingleCharacterXOR" failures="0" errors="0">
-  <testsuite tests="1" time="3279" name="DetectSingleCharacterXOR" failures="0" skipped="0" errors="0">
-    <testsuite tests="1" time="3279" name="DetectSingleCharacterXOR" failures="0" skipped="0" errors="0">
-      <testcase name="It returns the Object we think is xor'd with a single character" time="3228" status="OK"/>
+<testsuites tests="1" time="5710" name="DetectSingleCharacterXOR" failures="0" errors="0">
+  <testsuite tests="1" time="5710" name="DetectSingleCharacterXOR" failures="0" skipped="0" errors="0">
+    <testsuite tests="1" time="5710" name="DetectSingleCharacterXOR" failures="0" skipped="0" errors="0">
+      <testcase name="It returns the Object we think is xor'd with a single character" time="5679" status="OK"/>
     </testsuite>
   </testsuite>
 </testsuites>

@@ -18,7 +18,7 @@ import * from solutions::DetectSingleCharacterXOR
                     line: "7b5a4215415d544115415d5015455447414c155c46155f4058455c5b523f"
                 }
                 ---
-                log(findSingleCharacterXor(file)) must equalTo(answer)
+                findSingleCharacterXor(file) must equalTo(answer)
             }
         }
     ]

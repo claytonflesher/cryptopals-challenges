@@ -2,6 +2,7 @@
 
 import * from Binaries
 import substringEvery from dw::core::Strings
+import rightPad, substring from dw::core::Strings
 
 fun fixedXor(hexString: String, secret: String): String =
     do {
@@ -15,4 +16,12 @@ fun fixedXor(hexString: String, secret: String): String =
                 acc ++ "1")
         then (binary) -> fromBinaryToHex([binary])
 
+    }
+
+fun repeatingKeyXor(hexString: String, secret: String): String =
+    do {
+        var rightPaddedSecret = rightPad(secret, sizeOf(hexString), secret)
+        var equalLengthSecret = substring(rightPaddedSecret, 0, sizeOf(hexString))
+        ---
+        fixedXor(hexString, equalLengthSecret)
     }
